@@ -1,0 +1,20 @@
+.containerText{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.text{
+    border-bottom: #81a0a6 solid 1px;
+    width: 40%;
+}
+
+.inputText{
+    border-radius: 20px;
+    border: #81a0a6 solid 1px;
+    width: 40%;
+    height: 3%;
+    padding-left: 1%;
+}

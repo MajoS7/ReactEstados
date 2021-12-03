@@ -1,11 +1,14 @@
 import {Count} from '../../Layouts/Count/Count'
 import { ChangeText } from '../../Layouts/ChangeText/ChangeText';
+import './Home.css';
 
 export const Home = ()=>{
     return(
-        <>
-        <Count />
-        <ChangeText />
-        </>
+        <main className="OrganizeL">
+            <Count />
+            <ChangeText />
+        </main>
+        
+        
     );
 }

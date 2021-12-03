@@ -1,12 +1,13 @@
 import React, {useState} from 'react';
+import './ChangeText.css';
 
 export const ChangeText = ()=>{
     const [Ctext, setCtext]=useState("");
     return(
-        <div>
+        <div className="containerText">
             <h1>Change text</h1>
-            <p>{Ctext}</p>
-            <input type="text" onKeyUp={event=>setCtext(event.target.value)} />
+            <p className="text">{Ctext}</p>
+            <input className="inputText" type="text" onKeyUp={event=>setCtext(event.target.value)} placeholder="Write..." />
         </div>
         
 
